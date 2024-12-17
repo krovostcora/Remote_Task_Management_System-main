@@ -1,0 +1,32 @@
+Registration:
+
+REGISTER username password
+REGISTER anna123 qwerty
+
+login:
+LOGIN username password
+LOGIN anna123 qwerty
+
+add task
+ADD Task description
+ADD Finish project by Monday
+
+see the tasks:
+VIEW TASKS
+
+delete tasks
+DELETE Task description
+DELETE Finish project by Monday
+
+logout:
+LOGOUT
+
+finish clients' work:
+EXIT
+
+--------------------------------
+with categories:
+ADD work Finish project by Monday
+ADD uni finish
+VIEW work
+DELETE work Finish project by Monday
