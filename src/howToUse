@@ -1,32 +1,36 @@
+******       MANUAL     ************
+----------------------
 Registration:
+REGISTER <username> <password>
 
-REGISTER username password
-REGISTER anna123 qwerty
+REGISTER myname mypass
+----------------------
 
-login:
-LOGIN username password
-LOGIN anna123 qwerty
+Login:
+LOGIN <username> <password>
 
-add task
-ADD Task description
-ADD Finish project by Monday
+LOGIN myname mypass
+----------------------
 
-see the tasks:
+Add Task:
+ADD <description>;<category>;<dueDate>
+
+ADD Finish project;work;2024-12-25
+ADD Study for exam;uni;2024-12-20
+----------------------
+
+View Tasks:
 VIEW TASKS
+----------------------
 
-delete tasks
-DELETE Task description
-DELETE Finish project by Monday
+Delete Task:
+DELETE <Task Description>
 
-logout:
+DELETE Finish project
+----------------------
+
+Logout:
 LOGOUT
-
-finish clients' work:
+----------------------
+Exit:
 EXIT
-
---------------------------------
-with categories:
-ADD work Finish project by Monday
-ADD uni finish
-VIEW work
-DELETE work Finish project by Monday

@@ -1,0 +1,8 @@
+Clean office;work;2024-12-22
+Prepare presentation slides;work;2024-12-20
+Submit assignment;uni;2024-12-23
+Train for marathon;fitness;2024-12-30
+Organize birthday party;personal;2024-12-24
+Read machine learning book;study;2024-12-28
+Fix website bugs;development;2024-12-26
+Plan weekend trip;personal;2024-12-29

@@ -1,0 +1,8 @@
+Clean kitchen;personal;2024-12-20
+Buy groceries;errands;2024-12-22
+Meditation session;wellness;2024-12-26
+Plan family dinner;personal;2024-12-24
+Organize workspace;productivity;2024-12-27
+Attend online course;education;2024-12-29
+Write novel chapter;writing;2024-12-23
+Start podcast project;media;2024-12-25

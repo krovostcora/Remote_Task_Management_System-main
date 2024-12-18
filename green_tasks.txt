@@ -1,0 +1,7 @@
+Finish homework;school;2024-12-22
+Write blog article;content;2024-12-23
+Update resume;career;2024-12-24
+Schedule dentist appointment;health;2024-12-21
+Backup project files;IT;2024-12-25
+Create workout plan;fitness;2024-12-30
+Learn new programming language;education;2024-12-28
