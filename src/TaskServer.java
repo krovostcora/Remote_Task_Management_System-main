@@ -38,15 +38,15 @@ public class TaskServer {
                 out = new PrintWriter(socket.getOutputStream(), true);
 
                 String command;
-                while ((command = in.readLine()) != null) { // Очікуємо нову команду
+                while ((command = in.readLine()) != null) { // Wait for a new command
                     System.out.println("Received command: " + command);
-                    handleCommand(command, out);           // Обробляємо команду
+                    handleCommand(command, out);           // Process the command
                 }
             } catch (IOException e) {
                 e.printStackTrace();
             } finally {
                 try {
-                    socket.close(); // Закриваємо сокет після завершення
+                    socket.close(); // Close the socket after finishing communication
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -133,8 +133,6 @@ public class TaskServer {
                     }
                     break;
 
-
-
                 case "VIEW":
                     if (UserSession.isLoggedIn()) {
                         String tasks = taskManager.getTasksAsString(UserSession.getLoggedInUser());
@@ -145,10 +143,6 @@ public class TaskServer {
                         out.println("Please log in first.");
                     }
                     break;
-
-
-
-
 
                 case "DELETE":
                     if (parts.length > 1) {
@@ -169,13 +163,13 @@ public class TaskServer {
                     }
                     break;
 
-                // У методі handleCommand перевірте, чи закривається з'єднання
+                // In the handleCommand method, check if the connection should be closed
                 case "EXIT":
                     response = "Goodbye!";
                     out.println(response);
                     out.println("END");
                     try {
-                        socket.close(); // Закриваємо сокет лише для команди EXIT
+                        socket.close(); // Close the socket only for the EXIT command
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
